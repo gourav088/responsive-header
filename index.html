@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vss Header</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div style="height: 100vh" class="parent-conatainer">
+      <div class="header">
+        <div class="header-item">
+          <div class="logo">
+            <a href="">
+              <img
+                height="66.15px"
+                width="80px"
+                src="/image/vss logo.webp"
+                alt=""
+              />
+            </a>
+          </div>
+          <!--navbar-->
+          <div class="navbar">
+            <ul id="flex-item">
+              <li>
+                <a class="home" href="">Home</a>
+              </li>
+              <li>
+                <a class="text-design" href="https://vidhyaskillschool.com/curriculum">Curriculum</a>
+              </li>
+              <li>
+                <a class="text-design" href="https://vidhyaskillschool.com/faq">Faq</a>
+              </li>
+              <li>
+                <a class="text-design" href="https://vidhyaskillschool.com/about">About Us</a>
+              </li>
+              <li>
+                <a class="text-design" href="https://vidhyaskillschool.com/contact">Contact Us</a>
+              </li>
+              <li>
+                <a class="text-design" href="https://vidhyaskillschool.medium.com/">Blogs</a>
+              </li>
+              <li>
+                <a class="design" href="https://docs.google.com/forms/d/e/1FAIpQLSe0Ipz128ws_ZJRSMaL7TY4cNUAOO_YX1HaFu84egapKvaDKw/viewform">Cohort 9 | Tap to apply</a>
+              </li>
+              <li>
+                <a class="design" href="https://docs.google.com/forms/d/e/1FAIpQLSe0Ipz128ws_ZJRSMaL7TY4cNUAOO_YX1HaFu84egapKvaDKw/viewform">Apply to Cohort 9</a>
+              </li>
+              <li>
+                <a class="design" href="https://docs.google.com/forms/d/e/1FAIpQLScGvh1QZ9nraSFqheIwhnLpnhJ_wq17o43o9l7eJj9_uq_dPw/viewform">Hire From Us</a>
+              </li>
+            </ul>
+            <div class="side-bar">
+              <img
+              onclick="btnclick();"
+                id="sidebar-icon"
+                height="30px"
+                src="/image/menu.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+ function btnclick() {
+    var x = document.getElementById("flex-item");
+  if (x.style.display === "none") {
+    x.style.display = "flex";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
